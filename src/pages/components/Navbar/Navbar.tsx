@@ -1,5 +1,6 @@
 import { Flex, Image } from "@chakra-ui/react";
 import React from "react";
+import SearchInput from "../SearchInput/SearchInput";
 
 type NavbarProps = {};
 
@@ -20,6 +21,7 @@ const Navbar: React.FC<NavbarProps> = () => {
           alt="Text"
         />
       </Flex>
+      <SearchInput/>
     </Flex>
   );
 };
